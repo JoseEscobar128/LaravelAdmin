@@ -12,4 +12,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/actors', [ActorController::class, 'index']);
+//Route::get('/actors', [ActorController::class, 'index']);
+Route::resource('actors', ActorController::class);
+Route::resource('actors', ActorController::class)->parameters([
+    'actors' => 'actor_id' 
+]);
