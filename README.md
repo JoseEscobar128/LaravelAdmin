@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # AdminLTE con Laravel
 
@@ -69,4 +70,5 @@ Laravel Installer
 --------------------------------------------------------------------------------------------------------------------
 
 Este proyecto está bajo la Licencia MIT.
+
 
